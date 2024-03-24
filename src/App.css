@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.App-header {
+  background-color: #4f46e5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.App-header h1 {
+  color: #ffffff;
+}
+
+.App-header p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.image-container {
+  max-width: 300px; /* Establece el ancho máximo del contenedor */
+  height: 400px; /* Establece la altura deseada */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+  display: flex; /* Utiliza flexbox para centrar la imagen verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.image-container img {
+  width: auto;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionar su relación de aspecto */
+}
+
