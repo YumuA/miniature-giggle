@@ -15,7 +15,7 @@ function App() {
 
     setTimeout(() => {
       setIsTransitioning(false);
-    }, 10000); // Desactiva el confeti después de 2 segundos (2000 milisegundos)
+    }, 10000); 
 
     return () => clearInterval(intervalId);
   }, [photos.length]);
@@ -32,6 +32,11 @@ function App() {
         />
         <p className='blanco'>Hola Valen feliz cumpleaños. Te amo mucho, eres la persona más especial en mi vida espero que hoy la pases muy bien <span>FELIZ DÍA</span></p>
         <p className='blanco'>¡Te amo mucho!</p>
+        <img
+          src="icegif-109.gif"
+          alt="GIF bonito"
+          className="gif"
+        />
       </header>
     </div>
   );
